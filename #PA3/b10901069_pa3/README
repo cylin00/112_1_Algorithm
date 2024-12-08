@@ -1,0 +1,31 @@
+This is README file for Algorithm PA#3
+Author: <B10901069 林沁穎>
+Date:2023/12/30
+=====
+SYNOPSIS:
+
+./bin/cb inputs/<input file name> outputs/<output file name>
+
+This program supports to find the mst and break the cycle
+=====
+DIRECTORY:
+
+bin/	  executable binary
+doc/	  reports
+src/ 	  source C++ code
+makefile
+README
+
+======
+HOW TO CIMPILE:
+
+Then compile the demo, simply follow the following steps
+	make
+======
+HOW TO RUN:
+
+	cd bin/
+	./bin/cb <input_file_name> <output_file_name>
+	For example,
+	under <student_id>_pa3
+	./bin/cb inputs/1.in outputs/1.out

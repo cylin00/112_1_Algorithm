@@ -1,0 +1,31 @@
+This is README file for Algorithm PA#2
+Author: <B10901069 林沁穎>
+Date:2023/11/11
+=====
+SYNOPSIS:
+
+./mps <input_file_name> <output_file_name>
+
+This program supports the solution of finding maximum planar subset
+=====
+DIRECTORY:
+
+bin/	  executable binary
+doc/	  reports
+src/ 	  source C++ code
+makefile
+README
+
+======
+HOW TO CIMPILE:
+
+Then compile the demo, simply follow the following steps
+	make
+======
+HOW TO RUN:
+
+	cd bin/
+	./bin/mps <input_file_name> <output_file_name>
+	For example,
+	under <student_id>_pa2
+	./bin/mps inputs/12.in outputs/12.out
